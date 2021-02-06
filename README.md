@@ -1,6 +1,6 @@
 
 <h1 align="center">Course: Big Data Optimization </h1>
-<p align="center"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Big Data Optimization" src="./assets/img/" width="20%"></a></p>
+<p align="center"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Big Data Optimization" src="./assets/img/ie598.jpg" width="20%"></a></p>
 
 ## Course Information
 Instructor: [Niao He](http://people.inf.ethz.ch/niaohe/index.html)
@@ -22,45 +22,55 @@ No book is required, but you are highly recommended to read the following:
 4. Bubeck. [Convex Optimization: Algorithms and Complexity](http://research.microsoft.com/en-us/um/people/sebubeck/Bubeck15.pdf). In Foundations and Trends in Machine Learning, 2015.
 
 
-### Topical Outlines
+<!-- ### Topical Outlines
 
 - **Part I: Introduction and Fundamentals** (3 weeks): basics of convex analyis, conic programming, machine learning under optimization lenses.
 - **Part II: Smooth Convex Optimization** (4 weeks): gradient descent, acceleration, projection-gree methods, coordinate descent, etc. 
 - **Part III: Nonsmooth Convex Optimization** (4 weeks): subgradient method, smoothing, Mirror Prox, primal-dual algorithms, proximal and splitting algorithms, etc. 
 - **Part IV: Stochastic and Online Optimization** (3 weeks): sample average approximation, stochastic approximation, incremental gradient methods, online algorithms, etc. 
-- **Part V: Optimization Perspectives for Selective Topics in Machine Learning** (2 weeks): sparsity learning, large-scale kernel machine, reinforcement learning, deep learning, etc. 
+- **Part V: Optimization Perspectives for Selective Topics in Machine Learning** (2 weeks): sparsity learning, large-scale kernel machine, reinforcement learning, deep learning, etc.  -->
 
 
 ### Class Schedule
+#### Module I: Introduction and Fundamentals
 
-|: Module I :|||
 | Lecture  | Topic | Resources |
 | :-----:  | :-------: | :---------: |
+| 1 | Introduction to course                  | [[Scribe](./lecture_scribe/IE598-lecture1-introduction.pdf)] |
+| 2 | Convex Sets                             | [[Scribe](./lecture_scribe/IE598-lecture2-convex-set.pdf)] |
+| 3 | Convex Functions                        | [[Scribe](./lecture_scribe/IE598-lecture3&4-convex-functions.pdf)] |
+| 4 | Convex Functions                        | [[Scribe](./lecture_scribe/IE598-lecture3&4-convex-functions.pdf)] |
+| 5 | Convex Optimization                     | [[Scribe](./lecture_scribe/IE598-lecture5-covex-optimization.pdf)] |
+| 6 | Conic Programming                       | [[Scribe](./lecture_scribe/IE598-lecture6-conic-programming.pdf)] |
 
+#### Module II: Smooth Convex Optimization
+| Lecture  | Topic | Resources |
+| :-----:  | :-------: | :---------: |
+| 7 | Introduction to Optimization Algorithms | [[Scribe](./lecture_scribe/IE598-lecture7-introduction-to-optimization-algorithms.pdf)] |
+| 8 | Gradient Descent                        | [[Scribe](./lecture_scribe/IE598-lecture8-gradient-descent.pdf)] |
+| 9 | Gradient Descent and Its Acceleration   | [[Scribe](./lecture_scribe/IE598-lecture9-gradient-descent-and-acceleration.pdf)] |
+| 10 | Projected Gradient Descent             | [[Scribe](./lecture_scribe/IE598-lecture10-projected-gradient-descent.pdf)] |
+| 11 | Conditional Gradient (a.k.a. Frank Wolfe Algorithm) | [[Scribe](./lecture_scribe/IE598-lecture11-conditional-gradient.pdf)] |
+| 12 | Coordinate Descent Algorithms          | [[Scribe](./lecture_scribe/IE598-lecture12-coordinate-descent-algorithms.pdf)] |
+| 13 | Case Study on Logistic Regression      | [[Scribe](./lecture_scribe/IE598-lecture13-case-study-on-logistic-regression.pdf)] |
 
+#### Module III: Nonsmooth Convex Optimization
+| Lecture  | Topic | Resources |
+| :-----:  | :-------: | :---------: |
+| 14 | Subgradient Method                     | [[Scribe](./lecture_scribe/IE598-lecture14-subgradient-methods.pdf)] |
+| 15 | From Subgradient Descent to Mirror Descent | [[Scribe](./lecture_scribe/IE598-lecture15-mirror-descent.pdf)] |
+| 16 | Smoothing Techniques I                 | [[Scribe](./lecture_scribe/IE598-lecture16-smoothing-techniques-I.pdf)] |
+| 17 | Smoothing Techniques II & Proximal Point Algorithm | [[Scribe](./lecture_scribe/IE598-lecture17-smoothing-techniques-II.pdf)] |
+| 18 | Mirror Prox for Saddle Point Problems  | [[Scribe](./lecture_scribe/IE598-lecture18-mirror-prox-algorithm-for-saddle-point-problems.pdf)] |
+| 19 | (Accelerated) Proximal Gradient Method | [[Scribe](./lecture_scribe/IE598-lecture19-proximal-gradient-method-and-its-acceleration.pdf)] |
+| 20 | Splitting Algorithms | [[Scribe](./lecture_scribe/IE598-lecture20-splitting-algorithms.pdf)] |
 
-| 1 |  Introduction | Introduction to course;  | [[Scribe](./lecture_slides/IE521-lecture-1-convex-sets.pdf)] |
-| 2 | Convex Sets | Radons Theorem; Helleys Theorem and Applications; Separation Theorems | [[Scribe](./lecture_slides/IE521-lecture-2-convex-geometry.pdf)] |
-| 3 | Separation Theorems | Separation Hyperplane Theorem; Strong Separation Hyperplane Theorem; Farkas Lemma; Duality of Linear Programming | [[Scribe](./lecture_slides/IE521-lecture-3-separation-theorems.pdf)] |
-| 4 | Convex Functions | Convex Functions  | [[Scribe](./lecture_slides/IE521-lecture-4-convex-functions.pdf)] |
-| 5 | Convex Functions II | Characterizations of Convex Functions; Continuity of Convex Functions; Closed Convex Functions | [[Scribe](./lecture_slides/IE521-lecture-5-convex-functions-II.pdf)] |
-| 6 | Subgradient and Subdifferential | Subgradient; Directional Derivative and Subdifferential Set; Calculus of Subgradient | [[Scribe](./lecture_slides/IE521-lecture-6-subgradients.pdf)] |
-| 7 | Convex Conjugate | Conjugate Function; Conjugate Theory; Minima of Convex Functions | [[Scribe](./lecture_slides/IE521-lecture-7-convex-conjuate.pdf)] |
-| 8 | Convex Programs and Duality | Convex Programs; Convex Theorem on Alternatives; Lagrange Duality | [[Scribe](./lecture_slides/IE521-lecture-8-convex-programs-and-duality.pdf)] |
-| 9 | Optimality Conditions | KKT Conditions; Saddle Point Perspective; Minimax Theorems | [[Scribe](./lecture_slides/IE521-lecture-9-optimality-conditions.pdf)] |
-| 10 | Solving Convex Programs | Accuracy Measure, Oracles, Complexity; Cutting Plane Methods; Center of Gravity Algorithm | [[Scribe](./lecture_slides/IE521-lecture-10-solving-convex-programs.pdf)] |
-| 11 | Polynomial Solvability of Convex Programs | Complexity vs Convergence; Center of Gravity; Ellipsoid Method | [[Scribe](./lecture_slides/IE521-lecture-11-ellipsoid-method.pdf)] |
-| 12 | Conic Programming | Generalized Inequality; Conic Programs: LP, SOCP, SDP; Applications: norm minimization, sparse group lasso, robust linear program | [[Scribe](./lecture_slides/IE521-lecture-12-conic-programs.pdf)] |
-| 13 | Dual Cone; Conic Duality; SOCP Duality; SDP Duality and Applications | [[Scribe](./lecture_slides/IE521-lecture-13-conic-duality.pdf)] |
-| 14 | SDP Relaxation and Applications | SDP for Eigenvalue Optimization; SDP for Max Cut Problem; SDP for Nonconvex QCQP; SDP for Stability of Dynamical Systems | [[Scribe](./lecture_slides/IE521-lecture-14-SDP-relaxation.pdf)] |
-| 15 | CVX Tutorial | CVX Tutorial; MATLAB Demonstration | [[Scribe](./lecture_slides/IE521-lecture-15-CVX-tutorial.pdf)] |
-| 16 | Interior Point Method  Part I | Path Following Scheme; Self-concordant Functions;  | [[Scribe](./lecture_slides/IE521-lecture-16-IPM-self-concordance.pdf)] |
-| 17 | Interior Point Method  Part II | Classical Newton Method and Analysis; Newton Method for Self-concordant Functions; Damped Newton Method and Global Convergence | [[Scribe](./lecture_slides/IE521-lecture-17-IPM-Newton-method.pdf)] |
-| 18 | Interior Point Method  Part III | Self-concordant Barriers; Restate Path Following Scheme | [[Scribe](./lecture_slides/IE521-lecture-18-IPM-path-following-scheme.pdf)] |
-| 19 | Interior Point Method  Part IV | Self-concordant Barriers for LP, SOCP, SDP; Complexity of Interior Point Method; Primal-Dual Path Following Scheme;  | [[Scribe](./lecture_slides/IE521-lecture-19-IPM-conic-programs.pdf)] |
-| 20 | Subgradient Method | Subgradient Method; Choices of Stepsize; Convergence Analysis;  | [[Scribe](./lecture_slides/IE521-lecture-20-subgradient-method.pdf)] |
-| 21 | Bundle Methods | Kelleys Method; Level Set Method;  | [[Scribe](./lecture_slides/IE521-lecture-21-bundle-methods.pdf)] |
-| 22 | Constrained Subgradient Methods | Problems with Functional Constraints; Constrained Level Method | [[Scribe](./lecture_slides/IE521-lecture-22-constrained-subgradient-methods.pdf)] |
-| 23 | Dual Methods | Augmented Lagrangian; ADMM | [[Scribe](./lecture_slides/IE521-lecture-23-dual-methods.pdf)] |
+#### Module IV: Stochastic and Online Optimization
+| Lecture  | Topic | Resources |
+| :-----:  | :-------: | :---------: |
+| 21 | Sample Average Approximation | [[Scribe](./lecture_scribe/IE598-lecture21-stochastic-optimization.pdf)] |
+| 22 | Stochastic Gradient Descent / Mirror Descent| [[Scribe](./lecture_scribe/IE598-lecture22-stochastic-optimization-II.pdf)] |
+| 23 | Incremental Gradient Methods for Finite Sum Problems  | [[Scribe](./lecture_scribe/IE598-lecture23-incremental-gradient-algorithms.pdf)] |
+| 24 | Summary and Outlook |[[Slides](./lecture_scribe/IE598-lecture24-summary-and-outlook_slides.pdf)]|
 
 ## License
